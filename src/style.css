@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background: #E6B8B5;
+    color: #6B403E;
+}
+.main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__text{
+    font-size: 30px;
+    color: #665251;
+}
+.main__list li::marker{
+    content: '💻';
+    padding: 20px;
+}
+ul li{
+    font-size: 18px;
+}
+.main__intro{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 17px;
+}
